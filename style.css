@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -16,8 +18,20 @@
 
 }
 
+.HeaderLogo{
+    width: 35%;
+}
+
+
+.HeaderLogo img{
+    width: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
 .HeaderNavs{
-    width: 55%;
+    width: 45%;
 }
 
 .NavHold{
@@ -25,8 +39,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    margin-left: 50px;
+    justify-content: space-evenly;
 }
 
 .HeaderNavs a{
@@ -34,10 +47,8 @@
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
     color: #1B1818;
     text-align: center;
-    margin-left: 20px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -65,9 +76,434 @@ color: #FFFFFF;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    width: 19%;
+    width: 25%;
 }
 
 .HeaderHam img{
     width: 30px;
 }
+
+.HeroPage{
+    width: 100%;
+    background: #E6EBF3;
+    height: 90vh;
+}
+
+.HeroPageHold{
+    width: 100%;
+    height: 100%;
+    background-color: #085BDA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./Images/Background\ copy\ 3lv\,\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.HeroPageHold span{
+    color: #EB2020;
+}
+
+.TextHold{
+    width: 40%;
+    color: #1C1C1C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 33px;
+    margin-left: -34rem;
+}
+
+.TextHold h2{
+    font-family: 'Roboto';
+    font-size: 45px;
+    line-height: 52px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.TextHold h4{
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 52px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.HeroBtn{
+    margin-top: 20px;
+}
+
+.btn{
+    width: 179px;
+    height: 36px;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    background: #085BDA;
+    text-align: center;
+}
+
+.btn span{
+    margin-left: 10px;
+}
+
+.HeroBtn{ 
+    display: flex;
+    align-items: center;
+}
+
+.HeroBtn div{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    background: #84ADEC;
+    text-align: center;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.HeroBtn img{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 10px;
+}
+
+.HeroBtn a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #085BDA;
+    text-decoration: none;
+}
+
+.TextPageHold1{
+    height: 100vh;
+    width: 100%;
+    background: #E5E5E5;
+}
+
+.TextHolder{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.check{
+    width: 60%;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.check h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.checks{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.check button{
+    margin-top: 40px;
+}
+
+.checks h4{
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.checkimage img{
+    margin-left: 3rem;
+}
+
+.Service{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.ServiceHold{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #E6EBF3;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* background-color: #EB2020; */
+}
+
+.ServiceImageHold{
+    width: 40%;
+    /* background-color: #84ADEC; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.a{
+    background: url(./Images/Rectangle\ 12.png);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a button{
+    margin-top: 170px;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    background: #4684E3;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+}
+
+.b button{
+    margin-top: 170px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    background: #4684E3;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+}
+
+.c button{
+    margin-top: 170px;
+    margin-left: 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background: #4684E3;
+    width: 70px;
+    height: 20px;
+
+}
+
+.d button{
+    margin-top: 170px;
+    margin-left: 20px;
+    height: 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background: #4684E3;
+    width: 70px;
+}
+
+.b{
+    background: url(./Images/Rectangle\ 8\ \(1\).png);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c{
+    background: url(./Images/Rectangle\ 7.png);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d{
+    background: url(./Images/Rectangle\ 9.png);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.a2-1{
+    margin-bottom: 20px;
+}
+
+.a2-1 h3{
+    background: #C1D6F6;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#Car{
+    background: #FDE8B3;
+}
+
+.ServiceText{
+    margin-top: 30px;
+}
+
+.ServiceText p{
+    margin-top: 30px;
+    margin-right: 90px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.ServiceText h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.WhyTech{
+    width: 100%;
+    height: 100vh;
+    background: #E6EBF3;
+}
+
+.WhyTechHold{
+    height: 85%;
+    width: 80%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(221,185,23,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.WhyTechHold img{
+    margin-top: 30px;
+    width: 680px;
+}
+
+
+.WhyText{
+    width: 40%;
+}
+
+.WhyText h2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+}
+
+.sponsors{
+    background: #FCFCFC;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+}
+
+.sponsors img{
+    /* width: 50px; */
+    /* margin-top: 5px; */
+    margin-left: 80px;
+    /* background-color: red; */
+}
+
+.PeopleCard{
+    width: 100%;
+    height: 100vh;
+    background: #F8F8F8;
+}
+
+.Card1{
+    width: 30%;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    line-height: 30px;
+    margin-top: 80px;
+}
+
+.Card1 img{
+    margin-top: -24px;
+}
+
+.CardHold{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.CardHold p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.CardHold h2,h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.CardHold1 h2,h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.CardHold1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.CardHold1 p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
