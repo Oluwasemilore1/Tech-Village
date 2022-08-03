@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -707,6 +708,23 @@ color: #FFFFFF;
     text-align: start;
 }
 
+@media screen {
+    
+}
+
+@media (max-width: 479px) { 
+    .HeaderHold{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: #000000;
+    }
+    .TextHolder{
+        display: flex;
+        
+    }
+}
 
 
 
