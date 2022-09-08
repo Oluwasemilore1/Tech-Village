@@ -8,86 +8,13 @@
     box-sizing: border-box;
 }
 
-.HeaderHold{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 10vh;
-    width: 100%;
-    background: #FCFCFC;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-
-}
-
-.HeaderLogo{
-    width: 35%;
-}
-
-
-.HeaderLogo img{
-    width: 122px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 40px;
-}
-.HeaderNavs{
-    width: 45%;
-}
-
-.NavHold{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.HeaderNavs a{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    color: #1B1818;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.HeaderNavs a:hover{
-    border-bottom: 1px solid #1B1818;
-}
-
-header .HeaderHold .HeaderButton button{
-
-background: #085BDA;
-border-radius: 10px;
-border: none;
-outline: none;
-width: 124px;
-height: 35px;
-font-family: 'Roboto' sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-color: #FFFFFF;
-}
-
-.HeaderButton{
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    width: 25%;
-}
-
-.HeaderHam img{
-    width: 30px;
-}
 
 .JTHeroPage{
     width: 100%;
-    height: 90vh;
-    background: red;
+    height: 100vh;
+    /* background: linear-gradient(180deg,#2757FF 77.57%, #2757FF 77.71%); */
+    /* background: #2757FF; */
+    background: linear-gradient(rgba(255, 255, 255, 0) ,#2757FF);
 }
 
 .JTHeroPageHolder{
@@ -101,7 +28,8 @@ color: #FFFFFF;
     height: 100%;
     /* background-color: royalblue; */
     background: #E5E5E5;
-    
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
 }
 
 .JTFormHold{
@@ -112,6 +40,7 @@ color: #FFFFFF;
     justify-content: space-evenly;
     align-items: center;
     /* background-color: red; */
+
 }
 
 .JTFormHolder{
@@ -129,7 +58,6 @@ color: #FFFFFF;
 }
 
 .overlay{
-    /* background: rgba(50, 70, 80, 0.7); */
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) -14.57%, #2757FF 77.71%);
     height: 100%;
 }
@@ -137,11 +65,9 @@ color: #FFFFFF;
 .Bg{
     width: 30%;
     height: 100%;
-    /* background-color: rebeccapurple; */
     background: url(./Images/pexels-emmanuel-ikwuegbu-8005368\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-blend-mode: multiply; */
 }
 
 
@@ -161,20 +87,7 @@ color: #FFFFFF;
     border-radius: 9px;
     outline: none;
     border: none;
-}
-
-.X{
-    width: 100%;
-    height: 5vh;
-    /* background-color: #085BDA; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-}
-
-.X img{
-    margin-left: 50rem;
+    padding: 1rem;
 }
 
 .CheckBox{
@@ -209,5 +122,5 @@ color: #FFFFFF;
     font-size: 15px;
     color: #FFFFFF;
     margin-left: 9.5rem;    
-
+    cursor: pointer;
 }
